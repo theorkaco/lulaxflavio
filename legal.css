@@ -1,0 +1,25 @@
+/* Páginas jurídicas: somente texto, sem imagens, scripts ou rastreamento. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f7f7f4; color: #1c2325; font: 16px/1.75 -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+a { color: #923b34; text-underline-offset: 3px; }
+a:hover { color: #6a2924; }
+a:focus-visible { outline: 3px solid #923b34; outline-offset: 4px; }
+.wrapper { width: min(100% - 40px, 820px); margin-inline: auto; }
+.header { border-bottom: 1px solid #dedfda; background: #fff; }
+.header-inner { padding: 18px 0; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.brand { color: #182025; text-decoration: none; font-size: 13px; font-weight: 800; letter-spacing: .14em; }
+.back { font-size: 13px; white-space: nowrap; }
+.main { padding: 60px 0 74px; }
+h1 { font-size: clamp(30px,5vw,45px); line-height: 1.15; letter-spacing: -.045em; margin: 0 0 10px; }
+.intro { color: #5e686a; font-size: 15px; margin: 0 0 38px; }
+h2 { font-size: 21px; line-height: 1.35; letter-spacing: -.025em; margin: 36px 0 12px; }
+p { margin: 0 0 15px; }
+ol { padding-left: 24px; }
+li { margin: 0 0 12px; }
+strong { font-weight: 700; }
+.legal { max-width: 760px; }
+.legal-footer { background: #fff; border-top: 1px solid #dedfda; padding: 25px 0 32px; }
+.legal-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-bottom: 17px; font-size: 13px; }
+.footnote { color: #627073; font-size: 12px; line-height: 1.65; margin: 0; }
+@media (max-width: 500px) { .wrapper { width: min(100% - 30px, 820px); } .header-inner { padding: 14px 0; } .main { padding: 38px 0 48px; } h2 { margin-top: 27px; } body { font-size: 15px; } }
